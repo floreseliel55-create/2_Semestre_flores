@@ -1,6 +1,6 @@
 package com.flores.tarea_8;
 
-// Clase celda con 4 atributos (enum)
+// Clase celda con 3 atributos (enum)
 public class Celda {
     private int filas;
     private int columnas;
