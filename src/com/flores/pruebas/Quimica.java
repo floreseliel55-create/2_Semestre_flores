@@ -1,4 +1,4 @@
-package com.flores.tarea_8;
+package com.flores.pruebas;
 import java.lang.Math;
 
 public class Quimica {

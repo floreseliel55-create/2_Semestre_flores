@@ -1,4 +1,4 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.No_Revisados;
     // TAREA NUMERO 8  DE EJEMPLOS CON ENUM
     public class Enums{
 

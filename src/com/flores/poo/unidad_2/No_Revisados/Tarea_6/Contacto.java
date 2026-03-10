@@ -1,5 +1,7 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.No_Revisados.Tarea_6;
 
+// Tarea no. 6 Sergio Eliel Flores Urquidy 
+// Clase contacto que contiene los atributos
 public class Contacto {
     private String nombre;
     private char sexo;
@@ -12,7 +14,7 @@ public class Contacto {
     this.sexo=sexo;
     this.alias=alias;
 }
-    public Contacto(String nombre, char sexo, String alias,String telefono, String email, int edad){
+     public Contacto(String nombre, char sexo, String alias,String telefono, String email, int edad){
         this.nombre=nombre;
         this.sexo=sexo;
         this.alias=alias;
@@ -20,6 +22,7 @@ public class Contacto {
         this.email=email;
         this.edad=edad;
     }
+    //metodos para acceder a los atributos de la clase contacto
 public String getNombre() {
         return nombre;
     }
@@ -44,6 +47,9 @@ public String getNombre() {
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+    public int getEdad(){
+        return edad;
+    }
     public String getEmail() {
         return email;
     }
@@ -51,7 +57,7 @@ public String getNombre() {
         this.email = email;
     }
     public String toString(){
-        return "("+nombre+","+"("+sexo+","+"("+alias+","+"("+telefono+","+"("+email+")"+"("+edad+")";
+        return "("+nombre+"),"+"("+sexo+"),"+"("+alias+"),";
     }
 
 }

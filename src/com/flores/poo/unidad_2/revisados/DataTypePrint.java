@@ -1,4 +1,4 @@
-package unidad_3;
+package com.flores.poo.unidad_2.revisados;
 
 public class DataTypePrint {
     // Suma dos enteros

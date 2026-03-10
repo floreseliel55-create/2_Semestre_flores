@@ -1,4 +1,4 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_9;
 public class PuntoX9 {
     private int x=0;
     private int y=0;
@@ -9,7 +9,7 @@ public class PuntoX9 {
         totalPuntos++;
     }
     public void setX(int x){
-        x=x;
+        this.x=x;
     }
     public String toString(){
         return "("+x+","+y+")";

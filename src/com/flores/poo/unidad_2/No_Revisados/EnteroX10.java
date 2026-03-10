@@ -1,4 +1,4 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.No_Revisados;
 
 public class EnteroX10 {
     int x;

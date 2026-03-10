@@ -1,7 +1,6 @@
 //Ejercico de la clase Triangulo
 //Sergio Eliel Flores Urquidy 12/02/2026
-//puede borrar la linea de el package si no ejecuta
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_2;
 import java.util.Scanner;
 public class TrianguloX2{
     // atributos que le damos a la clase Triangulo

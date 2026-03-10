@@ -1,6 +1,8 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_3_y_5;
 
 public class Producto {
+    // Tarea 3
+    // Sergio Eliel Flores Urquidy
     private int clave;
     private String descripcion;
     private double precio;

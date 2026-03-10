@@ -1,10 +1,12 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_1_y_4;
 
-public class PersonaX1{
+public class Persona{
+    // Tarea 1 
+    // Sergio Eliel Flores Urquidy
        private String nombre="pepe";
        private int edad=0;
        private char sexo='M';
-    public PersonaX1(String nombre, int edad){
+    public Persona(String nombre, int edad){
        this.nombre = nombre;
        this.edad = edad;
     }
@@ -20,7 +22,7 @@ public class PersonaX1{
         return sexo;
     }
     public static void main(String[] args){
-        PersonaX1 objeto1 = new PersonaX1("Jose",17);
+        Persona objeto1 = new Persona("Jose",17);
         // al principio no escribio el sexo porque no estaba en el constructor de la clase
         // pero con los metodos get y set le pusimos valor sin estar en el constructor
         System.out.println(objeto1);

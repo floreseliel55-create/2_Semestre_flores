@@ -1,4 +1,4 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_9;
 import java.util.Arrays;
 public class UsaPuntoX9{
     public static void main(String[] args) {

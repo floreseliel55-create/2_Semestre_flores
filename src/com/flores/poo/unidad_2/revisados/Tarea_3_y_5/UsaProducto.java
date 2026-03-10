@@ -1,6 +1,8 @@
-package com.flores.poo.unidad_2;
+package com.flores.poo.unidad_2.revisados.Tarea_3_y_5;
 import java.util.Scanner;
 public class UsaProducto{
+    // Tarea 5
+    // Sergio Eliel Flores Urquidy
 
     public static void PedirClave (Scanner sc,int repeticiones, Producto[] productos) {
         for(int i=0; i<repeticiones; i++ ) {
