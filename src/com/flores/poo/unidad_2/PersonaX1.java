@@ -1,10 +1,10 @@
 package com.flores.poo.unidad_2;
 
-public class Persona{
-       private String nombre;
-       private int edad;
-       private char sexo;
-    public Persona(String nombre, int edad){
+public class PersonaX1{
+       private String nombre="pepe";
+       private int edad=0;
+       private char sexo='M';
+    public PersonaX1(String nombre, int edad){
        this.nombre = nombre;
        this.edad = edad;
     }
@@ -20,11 +20,13 @@ public class Persona{
         return sexo;
     }
     public static void main(String[] args){
-        Persona objeto1 = new Persona("tilin", 12);
-
+        PersonaX1 objeto1 = new PersonaX1("Jose",17);
+        // al principio no escribio el sexo porque no estaba en el constructor de la clase
+        // pero con los metodos get y set le pusimos valor sin estar en el constructor
         System.out.println(objeto1);
         objeto1.SetSexo('M');
         System.out.println(objeto1.getSexo());
+        //aprendi la funcion de get y set y para que funciona el constructor
     }
     
 }

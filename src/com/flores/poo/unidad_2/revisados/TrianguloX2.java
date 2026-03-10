@@ -3,7 +3,7 @@
 //puede borrar la linea de el package si no ejecuta
 package com.flores.poo.unidad_2;
 import java.util.Scanner;
-public class Triangulo{
+public class TrianguloX2{
     // atributos que le damos a la clase Triangulo
     // de manera privada para que solo tenga accesso la clase en la que está
     // creo que esto es parte del encapsulamiento
@@ -11,7 +11,7 @@ public class Triangulo{
     private int altura;
     //constructor porque tiene un nombre que referencia a la clase y sus valores los guarda 
     // para poder trabajar mas adelante con ellos en getter y setter
-    public Triangulo(int b, int a){
+    public TrianguloX2(int b, int a){
         this.base= b;
         this.altura= a;
     }
@@ -40,7 +40,7 @@ public class Triangulo{
         // este es el ejecutador como tal
         public static void main(String[] args){
             //se declara el objeto 
-            Triangulo figura1 = new Triangulo(9, 8);
+            TrianguloX2 figura1 = new TrianguloX2(9, 8);
             //se declara el scanner para pedir los datos
             Scanner sc = new Scanner(System.in);
             //declaro variable a utilizar
@@ -71,7 +71,9 @@ public class Triangulo{
             System.out.println("EL AREA DEL TRIANGULO ES: "+(figura1.base*figura1.altura)/2);
             
 
-
+            // En este programa aprendi el metodo toString para concatenar y imprimir los valores de un objeto
+            // Entendi un poco mas como funciona el encapsulamiento
+            // aprendi a modificar valores con los metodos
             
              
         }

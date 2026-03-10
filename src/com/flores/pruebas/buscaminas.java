@@ -1,4 +1,4 @@
-package com.flores.pruebas.poo;
+package com.flores.pruebas;
 
 public class buscaminas {
     public static void main(String[] args) {

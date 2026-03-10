@@ -14,7 +14,6 @@ public class UsaProducto{
             int precio = sc.nextInt();
             System.out.println("Ingrese cantidad ");
             int cantidad = sc.nextInt();
-            System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             productos[i]=new Producto(clave, descripcion, precio, cantidad);
         }
     }
