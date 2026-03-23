@@ -1,4 +1,4 @@
-package com.flores.unidad_2.No_Revisados;
+package com.flores.unidad_2.No_Revisados.Tarea_8;
     // TAREA NUMERO 8  DE EJEMPLOS CON ENUM
     // Sergio Eliel Flores Urquidy
     public class Enums{
@@ -47,23 +47,10 @@ package com.flores.unidad_2.No_Revisados;
     OTOÑO,
     INVIERNO
 }
-// Monedas
+    // Monedas
     public enum Moneda {
     DOLAR,
     QUARTER,
     PENNY
-}
-    public static void main(String[] args) {
-        Color colorFavorito = Color.BLUE;
-        DiaSemana diaActual = DiaSemana.MIERCOLES;
-        Mes mesActual = Mes.OCTUBRE;
-        Estacion estacionActual = Estacion.OTOÑO;
-
-        System.out.println("Color favorito: " + colorFavorito);
-        System.out.println("Día actual: " + diaActual);
-        System.out.println("Mes actual: " + mesActual);
-        System.out.println("Estación actual: " + estacionActual);
-        System.out.println("Moneda: " + Moneda.QUARTER);
-
     }
     }

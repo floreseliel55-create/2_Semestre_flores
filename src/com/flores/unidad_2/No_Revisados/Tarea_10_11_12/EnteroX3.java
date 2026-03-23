@@ -1,4 +1,4 @@
-package com.flores.unidad_2.No_Revisados;
+package com.flores.unidad_2.No_Revisados.Tarea_10_11_12;
 
 public class EnteroX3 {
 

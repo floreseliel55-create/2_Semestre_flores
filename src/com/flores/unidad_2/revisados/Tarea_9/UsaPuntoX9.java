@@ -13,5 +13,9 @@ public class UsaPuntoX9{
         System.out.println("Punto 1 = "+punto1);
         System.out.println(Arrays.toString(puntos));
         System.out.println("Puntos creados :"+PuntoX9.totalPuntos); 
+        System.out.println("Moviendo el punto 1: ");
+        System.out.println(punto1.moverPunto(7, 2));
+        double pendiente = punto1.calcularPendiente(punto2);
+        System.out.println("La pendiente entre el punto 1 y el punto 2 es: "+pendiente);
     }
 }

@@ -1,9 +1,12 @@
-package com.flores.unidad_2.revisados.Tarea_9;
-public class PuntoX9 {
+package com.flores.unidad_2.No_Revisados.Tarea_15;
+
+
+public class PuntoX15 {
+
     private int x=0;
     private int y=0;
-    public static int totalPuntos=0;
-    PuntoX9(int x, int y){
+    private int totalPuntos=0;
+    PuntoX15(int x, int y){
         this.x=x;
         this.y=y;
         totalPuntos++;
@@ -14,14 +17,20 @@ public class PuntoX9 {
     public String toString(){
         return "("+x+","+y+")";
     }
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
+    public void setY(int y) {
+        this.y = y;
+    }
+    
     public String moverPunto(int x, int y){
         this.x=x;
         this.y=y;
         return ""+x+","+y;
     }
-    public double calcularPendiente(PuntoX9 otroPunto){
-        return (double)(otroPunto.y-this.y)/(otroPunto.x-this.x);
-
-    }
+    
 }
-

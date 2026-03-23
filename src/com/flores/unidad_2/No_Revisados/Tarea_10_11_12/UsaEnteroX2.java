@@ -1,18 +1,8 @@
-package com.flores.unidad_2.No_Revisados;
+package com.flores.unidad_2.No_Revisados.Tarea_10_11_12;
 
-public class EnteroX2 {
+public class UsaEnteroX2 {
     
-    // Tarea 11 
-    // Sergio Eliel Flores Urquidy
-
-    static int x;
-    public int getX(){
-        return x;
-    }
-    public void setX(int newX){
-    x= newX;
-}
-public static void main(String[] args) {
+    public static void main(String[] args) {
     EnteroX2 entero1 = new EnteroX2();
     EnteroX2 entero2 = new EnteroX2();
     

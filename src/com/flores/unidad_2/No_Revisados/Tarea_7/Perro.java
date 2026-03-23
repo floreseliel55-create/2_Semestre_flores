@@ -1,8 +1,9 @@
-package com.flores.poo.unidad_2.No_Revisados.Tarea7;
+package com.flores.unidad_2.No_Revisados.Tarea_7;
 
 public class Perro {
     // Tarea 7
     // Sergio Eliel Flores Urquidy
+
     private String nombre;
     private char sexo;
     private String raza;
@@ -10,10 +11,11 @@ public class Perro {
     private String color;
     private double peso;
 
-    Perro(String nombre, char sexo, String raza){
+    Perro(String nombre, char sexo, String raza, int edad){
         this.nombre = nombre;
         this.sexo = sexo;   
         this.raza = raza;
+        this.edad=edad;
     }
 
     public String getNombre() {
@@ -54,6 +56,9 @@ public class Perro {
     
     public String toString(){
         return "Nombre:"+nombre+", sexo:"+sexo+", raza:"+raza+", edad:"+edad+", color:"+color+", peso:"+peso; 
+    }
+    public int calcularEdadPerruna(){
+        return edad*7;
     }
     
 }
