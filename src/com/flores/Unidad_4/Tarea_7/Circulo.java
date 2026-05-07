@@ -41,7 +41,7 @@ public class Circulo extends FiguraGeometrica{
         this.radio = radio;
     }
     public String toString(){
-        return super.toString()+radio;
+        return super.toString()+","+radio+", Circulo";
     }
     
     

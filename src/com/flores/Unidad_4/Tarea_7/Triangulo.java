@@ -15,29 +15,19 @@ public class Triangulo extends FiguraGeometrica {
         this.lado2   = lado2;
         this.lado3   = lado3;
     }
-
-    @Override
     public double calcularArea() {
         return (base * altura) / 2;
     }
-
-    @Override
     public double calcularPerimetro() {
         return lado1 + lado2 + lado3;
     }
 
-    // clone 
-    @Override
     public Triangulo clone() {
         return new Triangulo(base, altura, lado2, lado3, getColor());
     }
-    @Override
     public void colorFigura(){
         System.out.println("El color del triangulo :"+getColor());
     }
-
-    // equals
-    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof Triangulo)) return false;
@@ -48,11 +38,7 @@ public class Triangulo extends FiguraGeometrica {
             && Double.compare(lado3,   t.lado3)   == 0
             && getColor().equals(t.getColor());
     }
-
-    // ── toString ───────────────────────────────────────────
-    @Override
     public String toString() {
-        return String.format("Triangulo | base=%.2f, altura=%.2f, lado2=%.2f, lado3=%.2f, color=%s",
-                base, altura, lado2, lado3, getColor());
+        return super.toString()+","+lado1+","+lado2+","+lado3+","+base+","+altura+", Triangulo";
     }
 }

@@ -1,6 +1,6 @@
 package com.flores.Unidad_4.Tarea_7;
 
-public abstract class FiguraGeometrica {
+public abstract class FiguraGeometrica implements Cloneable{
     private String color;
     public FiguraGeometrica(String color){
         this.color=color;
@@ -13,7 +13,7 @@ public abstract class FiguraGeometrica {
     public abstract void colorFigura();
 
     public String toString(){
-        return ","+color+","+calcularArea()+","+calcularPerimetro();
+        return color+".";
     }
     public String getColor() {
         return color;
