@@ -1,3 +1,8 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
 package com.flores.Unidad_3.Tarea_4;
 
 public class MainGrupo {

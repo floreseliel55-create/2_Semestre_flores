@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: G extiende Uno para mostrar cómo una clase intermedia puede ser parte de una jerarquía de herencia.
 package com.flores.Unidad_3.Tarea_8;
 
 public class G extends Uno {

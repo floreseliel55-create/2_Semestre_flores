@@ -1,0 +1,11 @@
+1.¿Que puedes hacer en una subclase? puede usar los atributos publicos y protegidos que heredó directamente,
+tambien puede declarar nuevos atributos y metodos, se pueden sobrescribir los metodos (redefinir),
+ y se puede invocar al constructor de la superclase en la subclase.
+
+2.¿Cómo puedes acceder desde una subclase a los miembros privados de la superclase? mediante los metodos
+getter y setter o por las clases anidadas. 
+
+3.Explica un ejemplo de Cast: Ejemplo de la bicicleta de montaña que se encuentra en oracle https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+se tiene una bicicleta de montaña pero esta guardada o tomada pensando que es una bicicleta normal , con el cast lo que se le dice a java es que trate a esta bicicleta como si fuera  una bicicleta de montaña.
+en tiempo de ejecucion, java verifica que el objeto sea realmente de ese tipo y si no lo es lanza error.
+

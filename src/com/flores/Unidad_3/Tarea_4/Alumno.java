@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Alumno amplía Persona con datos académicos y demuestra herencia entre tipos de personas.
 package com.flores.Unidad_3.Tarea_4;
 
 public class Alumno extends Persona {

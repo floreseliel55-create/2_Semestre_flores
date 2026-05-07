@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: D extiende G y confirma que la herencia permite compartir funcionalidad entre varias clases.
 package com.flores.Unidad_3.Tarea_8;
 
 public class D extends G {

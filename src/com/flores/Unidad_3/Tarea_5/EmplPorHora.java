@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: EmplPorHora calcula el sueldo por horas, demostrando otra forma de especialización dentro de la misma jerarquía.
 package com.flores.Unidad_3.Tarea_5;
 
 public class EmplPorHora extends Empleado {

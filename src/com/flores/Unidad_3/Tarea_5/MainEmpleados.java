@@ -1,3 +1,18 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+
+// Cree primero la clase mas general con los atributos y metodos que van a heredar todas las clases del empleado y lo cree como abstract
+// ya que no voy a instanciar objetos de ella sino que la voy a usar como base de las demas
+// la clase empleado tiene ademas metodo abstract que aplicando el polimorfismo las clases derivadas van a utilizar
+// pero redefiniendo el metodo para que cada clase calcule su sueldo de diferente manera dependiendo de su tipo de empleado
+
+// En el main cree los objetos de cada tipo de empleado y los guarde en un ArrayList de tipo Empleado
+// para luego imprimir sus datos y su sueldo utilizando el metodo calcularSueldo que cada clase tiene implementado de manera diferente
+// Conclusión: así se aplica polimorfismo para tratar varios tipos de empleado de forma uniforme y obtener su sueldo según su clase concreta.
+
 package com.flores.Unidad_3.Tarea_5;
 import java.util.ArrayList;
 

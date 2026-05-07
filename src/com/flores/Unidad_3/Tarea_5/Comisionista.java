@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Comisionista calcula el sueldo según ventas, mostrando polimorfismo en el cálculo de cada tipo de empleado.
 package com.flores.Unidad_3.Tarea_5;
 
 public class Comisionista extends Empleado {

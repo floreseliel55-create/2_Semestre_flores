@@ -1,3 +1,15 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+
+// ¿Que errores de compilacion encontraste? que olvidaba poner el extends en las clases que le heredan
+//¿Que sucede cuando creas objetos? se iban escribiendo los System.out.println de los constructores en orden de su herencia
+//¿Cómo demuestras quee stas usando un atributo o metodo heredado? Lo demuestro en la manera en que
+// en la subclase no existen esos atributos o metodos pero los puedo utilizar.
+// Conclusión: la herencia permite acceder a atributos y métodos de la superclase desde las subclases, mostrando su comportamiento compartido.
+
 package com.flores.Unidad_3.Tarea_8;
 
 import java.util.ArrayList;

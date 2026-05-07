@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Empleado es la clase abstracta que define la base común y el método calcularSueldo para sus hijas.
 package com.flores.Unidad_3.Tarea_5;
 import com.flores.Unidad_3.Tarea_4.Persona;
 public abstract class Empleado extends Persona {

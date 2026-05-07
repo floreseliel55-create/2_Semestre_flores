@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Abeja usa herencia para compartir atributos de Animal y añade nombre y sonido propios.
 package com.flores.Unidad_3.Tarea_3;
 // clase abeja extiende de animal por lo que hereda sus atributos y metodos
 public class Abeja extends Animal {

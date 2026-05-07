@@ -1,4 +1,12 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: ColorPoint hereda de Point y añade color para mostrar cómo especializar una clase base.
 package com.flores.Unidad_3.Tarea_2;
+
+import com.flores.Unidad_4.Tarea_4.Point;
 
 // Clase derivada de Point
 public class ColorPoint extends Point {

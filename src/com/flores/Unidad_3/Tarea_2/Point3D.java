@@ -1,4 +1,12 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Point3D extiende Point añadiendo la tercera dimensión y demuestra herencia para reutilizar código.
 package com.flores.Unidad_3.Tarea_2;
+
+import com.flores.Unidad_4.Tarea_4.Point;
 
 // Clase que deriva de Point y le añade una nueva dimension z
 public class Point3D extends Point {
