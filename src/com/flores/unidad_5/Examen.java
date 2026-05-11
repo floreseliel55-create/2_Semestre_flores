@@ -32,6 +32,15 @@ public class Examen {
                     orden.add(lista.get(i));
                     break;
                 }
+                if(compareTo(lista.get(i),lista.get(j))<0){
+                    orden.add(lista.get(j));
+                    break;
+                }
+                if(compareTo(lista.get(i),lista.get(j))==0 ){
+                    orden.add(lista.get(i));
+                    orden.add(lista.get(j));
+                    break;
+                }
             }
         }
         return orden;
