@@ -1,4 +1,22 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+
+// La Clase colorPoint hereda de point por lo tanto hereda sus atributos y metodos.
+// Ademas añade un nuevo atributo color y sus metodos getter y setter y el metodo toString.
+
+// La clase Point 3D extiende de Point y añade una nueva Dimension z, con un constructor con los 3 atributos
+// En el cual invoca al constructor de la superclase para inicializar x e y, y luego inicializa z con el valor pasado como parametro
+// y si se usa el constructor se aumenta el contador de puntos.
+// En el metodo toString se invoca al de la superclase para mostrar las coordenadas x e y y luego se añade la coordenada z
+// El metodo medio esta siendo sobrecargado porque tiene el mismo nombre pero diferente firma y hace lo mismo pero se añade el medio de z.
+// Conclusión: esta clase demuestra herencia y sobrecarga de métodos para trabajar con puntos 2D y 3D de forma ordenada.
+
 package com.flores.Unidad_3.Tarea_2;
+
+import com.flores.Unidad_4.Tarea_4.Point;
 
 public class MainColores {
     public static void main(String[] args){

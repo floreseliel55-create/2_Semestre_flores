@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: H extiende G y encadena la herencia para mostrar cómo una subclase añade su propio comportamiento.
 package com.flores.Unidad_3.Tarea_8;
 
 public class H extends G {

@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Uno es la clase base de una jerarquía y demuestra cómo se heredan atributos básicos.
 package com.flores.Unidad_3.Tarea_8;
 
 public class Uno {

@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: X extiende D y completa la jerarquía, mostrando una cadena de herencia con comportamiento compartido.
 package com.flores.Unidad_3.Tarea_8;
 
 public class X extends D {

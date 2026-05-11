@@ -1,0 +1,2 @@
+El error que miro ahi es que las clases estan en distinto paquete. para solucionarle se deberia importar el ppaquete de la clase de esta forma: import algunPaquete.Padre
+ademas el primer metodo funciona porque p es tipo hijo y esta en la subclase, el segundo metodo no porque es protected y esta en otro paquete y no lo permite.

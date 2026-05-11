@@ -1,0 +1,17 @@
+Tarea 7-A
+
+¿Que pasa cuando la clase padre no tiene constructor explicito y la clase hijo?
+java le da por defecto un constructor vacio al hijo y implicitamente llama a super() (constructor de superclase)
+
+¿Que pasa cuando tiene el hijo un constructor con parametros?
+java mete un super() de manera implicita de igual forma.
+
+Tarea 7-B
+
+¿Que pasa cuando la clase padre tiene constructor y la clase hijo tiene o no un constructor explicito?
+si la superclase tiene constructor sin parametros no pasa nada java llama super() implicitamente.
+si la superclase tiene parametros y el hijo no tiene constructor me manda un error de compilacion.
+si la superclase tiene parametros y el hijo tambien se tiene que escribir el super explicito o si no falla.
+
+
+

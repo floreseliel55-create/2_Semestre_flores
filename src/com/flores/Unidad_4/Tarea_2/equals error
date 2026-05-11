@@ -1,0 +1,13 @@
+// Explica el error que genera la ejecucion del programa: Se debe que al usar el equals comparas 2 objetos
+// el objeto que recibe como parametro lo castea para que sea un punto y poder compararlo pero debido a que el p3 es una persona y no 
+// un punto el programa lanza error al querer castear.
+// se puede prevenir con un instanceof para verificar que el obj sea un punto antes de ser casteado
+
+    // equals con instanceof para evitar ClassCastException
+    public boolean equals(Object o) {
+        if (!(o instanceof Point)) {
+            return false;
+        }
+        Point p = (Point) o;
+        return ((x == p.x) && (y == p.y));
+    }

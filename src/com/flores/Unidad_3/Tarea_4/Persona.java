@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Persona define atributos básicos y su toString permite ver los datos de manera clara.
 package com.flores.Unidad_3.Tarea_4;
 
 public class Persona {

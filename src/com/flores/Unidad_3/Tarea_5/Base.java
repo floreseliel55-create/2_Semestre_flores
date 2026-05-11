@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: Base define el cálculo del sueldo fijo y demuestra cómo una subclase concreta implementa el método abstracto.
 package com.flores.Unidad_3.Tarea_5;
 
 public class Base extends Empleado {

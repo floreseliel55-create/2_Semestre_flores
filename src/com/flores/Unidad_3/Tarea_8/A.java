@@ -1,3 +1,9 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+// Conclusión: A extiende Uno y demuestra cómo una subclase hereda comportamiento de su superclase.
 package com.flores.Unidad_3.Tarea_8;
 
 public class A extends Uno {

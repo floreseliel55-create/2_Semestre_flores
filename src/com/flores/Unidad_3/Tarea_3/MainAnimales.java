@@ -1,3 +1,13 @@
+/*
+ * Alumno: Sergio Eliel Flores Urquidy
+ * Maestra: Maria Lucia Barron Estrada
+ * Materia: Programacion orientada a objetos
+ */
+
+// LA clase animal es la clase mas general que contiene lo que cualquier animal tiene
+// la clase perro gato abeja y gallina heredan de la clase animal por lo tanto tienen sus atributos y metodos y añaden sus propios atributos y metodos para diferenciarse entre si
+// Ademas que sobreescriben el metodo toString para mostrar su especie y su nombre en el caso de perro gato abeja y gallina y el metodo printSonido para mostrar su sonido caracteristico
+// Conclusión: esta clase muestra cómo la herencia agrupa comportamientos comunes y permite especializar animales con sus propios sonidos y descripciones.
 package com.flores.Unidad_3.Tarea_3;
 
 public class MainAnimales {
