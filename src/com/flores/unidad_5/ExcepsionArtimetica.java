@@ -25,6 +25,6 @@ public class ExcepsionArtimetica {
         catch(Exception e){
             System.out.println("Ingrese un numero entero: ");
         }
-    // Dix dijo que no se debe poner while infinito para romperlos con un return 
+    // Dikjstra dijo que no se debe poner while infinito para romperlos con un return 
     }
 }

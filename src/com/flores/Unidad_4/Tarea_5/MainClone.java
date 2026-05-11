@@ -1,5 +1,7 @@
 package com.flores.Unidad_4.Tarea_5;
 
+import com.flores.unidad_5.Persona;
+
 // Explicacion de la implementacion de interface cloneable y el metodo clone en las clases Persona y Cliente
 // se genera una referencia vacia, uso el clone de object lo que genera un nuevo objeto en memoria y copia todos los atributos
 // regresa un object por lo tanto se castea a una Persona la excepcion se debe poner si no se implementa el cloneable

@@ -3,7 +3,7 @@
  * Maestra: Maria Lucia Barron Estrada
  * Materia: Programacion orientada a objetos
  */
-package com.flores.Unidad_4.Tarea_5;
+package com.flores.unidad_5;
 
 public class Persona implements Cloneable{
     private String nombre;

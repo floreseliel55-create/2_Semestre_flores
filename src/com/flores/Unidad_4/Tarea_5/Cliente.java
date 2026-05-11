@@ -1,5 +1,7 @@
 package com.flores.Unidad_4.Tarea_5;
 
+import com.flores.unidad_5.Persona;
+
 public class Cliente extends Persona{
     private String numeroCliente;
     private String direccion;
