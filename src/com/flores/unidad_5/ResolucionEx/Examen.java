@@ -1,4 +1,4 @@
-package com.flores.unidad_5;
+package ResolucionEx;
 
 import java.util.ArrayList;
 import java.util.Arrays;

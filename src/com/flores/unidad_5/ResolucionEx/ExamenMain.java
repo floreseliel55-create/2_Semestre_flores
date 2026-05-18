@@ -1,4 +1,4 @@
-package com.flores.unidad_5;
+package ResolucionEx;
 
 public class ExamenMain {
     public static void main(String[] args) {
